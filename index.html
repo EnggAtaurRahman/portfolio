@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="em-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hi! I'm Ataur Rahman</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style type="text/css" media="screen">
+    body{
+  font-family: serif;
+}
+/*-----------------------enable smooth scrolling for the whole page----------------------------------*/
+  html {scroll-behavior: smooth;}
+
+/*-----------------------------------------header area---------------------------------*/
+#me{padding-top: 250px;
+    background-image:url("image/84.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;display: block;
+    z-index: -1;
+    position: relative;
+   }
+#m{color: white;border: 2px solid orange;text-align: center;margin: auto;width: 555px;}
+header{height: 600px;}
+@media screen and (max-width: 800px) {
+  #m{width: 400px;}
+  #m h1{font-size: 30px;}
+  #m h4{font-size: 20px;}
+  #me{padding-top: 220px;}
+  header{height: 500px;}
+  } 
+/*-----------------------------------------about area---------------------------------*/
+#about{background-color:#1d3340;color:white;}
+.col-md-3 img{border:4px solid #ddd;border-radius: 50%;width: 250px; height:250px;}
+.icon{font-size: 30px;color:#495e6b;padding: 5px; }
+/*-----------------------------education----------------------------------------*/
+#education{background-color: #733531;}
+#edu{background-color:#ddd;padding:30px;border-radius: 4px;}
+/*---------------------------------css of skill----------------------------------*/
+#skill{padding: 70px 0;background-color: #bf97a754;
+  /*background:url(image/ataur.jpg) no-repeat;background-attachment: fixed;display: block; background-size: cover;
+   */}
+#service_block{margin:5px -10px;
+               border: 1px solid #ddd;
+               background-color: #dadada;
+               min-height:230px;
+              }
+@media screen and (max-width: 580px) {
+  #service_block{width: 75%;}
+} 
+#content{padding: 10px ;}
+#icon{width: 70px;font-size: 50px;margin-top :5px;color: orange;padding-left:0px}
+#allBlock{margin: auto;width: 88%;padding: 20px;}
+ 
+#service_block:hover{box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+                    transform: scale(1.1);
+                    transition: all 1s;
+                    cursor: pointer;
+                    transform: translateY(-10px);
+                    background: white;}
+/*---------------------------------gallery-------------------------*/
+#gallery{padding-top: 70px; overflow: hidden;
+         background-image:url("image/wood.jpg");
+         width: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+       }
+.img-thumbnail{border:3px solid transparent;color: #106470; margin: 17px 0; } 
+.img-thumbnail:hover{border:3px solid #106470; opacity: .8}
+@media screen and (max-width: 580px) {
+  .img-thumbnail{width: 65%;}
+}      
+.g-img{height: auto; width: 100%;}
+/*----------------------------------contactr-----------------------------------------*/
+#contact{background:url(image/t.jpg);color:white;padding: 60px;margin-bottom: 1px;overflow:hidden;   }
+#contact input,#contact textarea{background-color: #7dd4cc;}
+#contact input:hover,#contact textarea:hover{background-color: #ddd;}
+/*----------------------------------css of footer-----------------------------------------*/
+#footer{ background-color:#106470;color: white;padding: 40px 0;}
+.ficon{color:#53b0bd;font-size: 30px;padding:0 8px;}
+#footer a :hover{color:#09373e;}
+/*-----------------------------css of scrollto top----------------------------------*/
+  #myBtn {
+  position: fixed;
+  bottom: 15px;
+  right:30px;
+  background-color:#055561;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  z-index: 1  }
+  #myBtn:hover {background-color: #093e46;}
+	
+    </style>
+</head>
+<body>
+    <!------------------------------------------------header area---------------------------------------- -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar fixed-top  " style="background-color:#106470; ">
+        <div class="container ">
+                <a href="#about" class="navbar-brand text-warning font-weight-bold">ATAUR RAHMAN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+
+            <div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="nav-link " href="#me">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#education">EDUCATION</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#skill">SKILL</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#project">PROJECT</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#gallery">GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#contact">CONTACT</a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
+                                <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div><!-- container ends -->
+    </nav>
+
+<header   id="me">
+	<div class="container " >
+      <div id="m">
+         <h1>Hi I'm ATAUR RAHMAN</h1>
+         <h4 >| SOFTWARE ENGINEER |</h4>
+      </div>
+    </div>
+</header>
+
+<!-----------------------------about_us---------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row" style="padding: 60px 0;"> 
+
+            <div class="col-md-9 col-sm-12 " >
+                <h1><tt>Ataur Rahman</tt></h1>
+                <h4><tt>Founder of, Technlolgy Haunt</tt></h4></br>
+
+                <p>Ataur Rahman  is the founder of Technlolgy Haunt. This is the largest online technological platform in Bangladesh</br> which teaches so many students every single day, that too completely free of cost.</br></br>
+                Technlolgy Haunt has won many global accolades and a few to be mentioned would be The GLOMO     Award in World Mobile Congress</br> & The APICTA Award which is also known as the Oscars of ICT.</p></br>
+            </div>
+   
+            <div class="col-md-3 col-sm-12 text-center" >
+               <img class="" src="image/41.jpg" >
+
+               <div class="text-center" style="padding: 9px 0">
+                    <a href="https://www.facebook.com/ataur.rahman.3152130" target="_blank"class="icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" class="icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank" class="icon"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
+               </div>   
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------education----------------------------------------> 
+<div id="education" style="padding: 60px 0;">
+    <div class="container">
+        <h1 style="color: white">Education</h1>
+        <div id="edu">
+            <h2>Computer Science And Engineering</h2>
+            <h4>CSE,Mawlana Bhashani Sciense And Technology University</h4></br>
+            <p>My lessons at Computer Science And Engineering started in the classrooms and grew into something much bigger-what started off as businesshacks from the teachers grew into life and survival hacks from my friends.I participated in numerous competitions, won a few, lost many,and learnt a lot- especially from the failures.The wins taught me the result of hard work, and the losses turned out to be chances to improve and adapt.</p>
+        </div>
+    </div>
+</div>
+  <!-----------------------------skill----------------------------------------> 
+<center id="skill"  data-parallax="scroll" data-image-src="image/ataur.jpg">
+  <div class="container">
+      <h1 style="color: orange;padding-top: 10px">SKILL</h1>
+
+    <div class="row">
+        <div class="col-md-4 col-sm-6" >
+          <div id="service_block">   
+            <div id="icon"><i class="fab fa-html5"></i></div>
+            <div id="content"><h4>WEB DESIGN</h4>
+                <p>We always design qualified web sites and attractive effects which catches visitor's Eye.</p>
+            </div>
+          </div> 
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div id="service_block">
+            <div id="icon"><i class="fab fa-html5"></i></div>
+            <div id="content"><h4>WEB DEVELOPMENT</h4>
+                <p>Clean and fresh issue free code to make your website dynamic perfectly.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6" >
+          <div id="service_block">
+            <div id="icon"><i class="fab fa-wordpress"></i></div>
+            <div id="content"><h4>WORDPRESS</h4>
+                <p>Wordpress, Magento, E-Commerce, Prestashop Theme Development & Customization.</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4 col-sm-6">
+          <div id="service_block">
+            <div id="icon"><i class="fab fa-java"></i></div>
+            <div id="content" ><h4>Java</h4>
+               <p>Responsive Design which will be working almost all browsers and screens, Mobile, TaB, PC etc.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div id="service_block">
+            <div id="icon"><i class="fab fa-android"></i></div>
+            <div id="content"><h4>Android</h4>
+               <p>Admin Support, Microsoft Word, Excel, Powerpoint Slide, Internet marketing, Cpa marketing, Data mining etc etc.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div id="service_block">
+            <div id="icon"><i class="fab fa-php"></i></div>
+            <div id="content"><h4>PHP</h4>
+                <p>Search Engine Optimization to make website high ranked and bring expected traffics on websites.</p>
+            </div>
+          </div>
+        </div>
+    </div><!-- row end -->
+   </div><!-- container end -->
+</center>
+  <!----------------------------- gallery----------------------------------------> 
+
+<center id="gallery">
+           <h1 style="color: orange">Gallery</h1>
+    <div class="container">
+        <div class="row " style="padding: 20px 0;">
+            <div class="col-sm-6 col-md-4 ">
+                <div class="img-thumbnail" >
+                    <a href="image/1.jpg"><img class="g-img " src="image/1.jpg" alt=""></a>
+                    <h5>Life is about creating yourself.</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 ">
+                <div class="img-thumbnail">
+                    <a href="image/1.jpg"><img class="g-img " src="image/2.jpg" alt=""></a>
+                    <h5>Life is about creating yourself.</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 ">
+                <div class="img-thumbnail">
+                    <a href="image/1.jpg"><img class="g-img " src="image/3.jpg" alt=""></a>
+                    <h5>Life is about creating yourself.</h5>
+                </div>
+            </div>
+        
+             <div class="col-sm-6 col-md-4 ">
+                <div class="img-thumbnail">
+                    <a href="image/1.jpg"><img class="g-img " src="image/4.jpg" alt=""></a>
+                    <h5>Life is about creating yourself.</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 ">
+                <div class="img-thumbnail">
+                    <a href="image/1.jpg"><img class="g-img " src="image/5.jpg" alt=""></a>
+                    <h5>Life is about creating yourself.</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 ">
+                <div class="img-thumbnail">
+                    <a href="image/1.jpg"><img class="g-img " src="image/6.jpg" alt=""></a>
+                    <h5>Life is about creating yourself.</h5>
+                </div>
+            </div>
+            
+        </div><!-- row end -->
+    </div><!-- container ends   -->     
+</center>
+
+<!----------------------------- contact ----------------------------------------> 
+<div id="contact">
+    <div class="container">
+        <h1 class="text-center text-warning">Get in Touch</h1>
+        <h6 class="text-center text-warning">I can be totally stalked online. Give me a shout-out.</h6><br>
+
+        <form action="form-control">
+            <h3>Shoot a message!</h3>
+            <div class="row"  >
+                <input style="margin:20px 0 ;" type="text" id="name" class="col form-control" placeholder="your name" >
+                <input style="margin:20px 0 ; margin-left: 25px;" type="email" id="email" class="col form-control" placeholder="your email" >
+                <textarea rows="6"style="padding: 5 10px ;"type="text" id="message" class="col-12 form-control">your message...</textarea>   
+                <button style="margin:20px 0 ;" type="btton" class="btn btn-info btn-lg">send</button>
+            </div>
+        </form>        
+    </div>
+</div>
+
+
+<!----------------------------- footer----------------------------------------> 
+<footer id="footer">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <tt class="col-md-6 col-sm-12 " >CopyrightÂ© 1995-2020 All Rights Reserved by Ataur Rahman</tt>
+            <span class="col-md-5 col-sm-12 ">
+            <a href="https://www.facebook.com/ataur.rahman.3152130" class="ficon"><i class="fab fa-facebook"></i></a>
+            <a href="                       " class="ficon"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.youtube.com"class="ficon"><i class="fab fa-youtube"></i></a>
+            <a href="                       "class="ficon"><i class="fab fa-twitter-square"></i></a>
+            <a href="                      "class="ficon"><i class="fab fa-linkedin"></i></a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-----------------------------scrollto_top----------------------------------------> 
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+// ----------------------------------------java scripts-------------------------------------------
+</script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js-1.5.0/parallax.js"></script>
+</body>
+</html>
